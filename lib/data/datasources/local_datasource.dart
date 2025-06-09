@@ -42,6 +42,7 @@ class LocalDataSource {
   Future<List<MealModel>> getAllMeals() async {
     final db = await database;
     final result = await db.query('meals');
+    print('Fetched ${result.length} meals from DB');
     return result.map((map) => MealModel.fromMap(map)).toList();
   }
 }
