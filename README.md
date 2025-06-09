@@ -25,8 +25,8 @@ A simple and clean Flutter mobile application to track your daily meals. Users c
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/meal_tracker_app.git
-cd meal_tracker_app
+git clone https://github.com/doundkar/meal_tracker2
+cd meal_tracker2
 
 ```
 ### 2. Install dependencies
